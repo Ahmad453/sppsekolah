@@ -1,0 +1,14 @@
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  color: white;
+  background-color: black;
+}
