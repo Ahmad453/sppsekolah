@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<link rel="stylesheet" type="text/css" href="admin.css">
+<link rel="stylesheet" type="text/css" href="view/admin.css">
 <center>
 <h3>Data Admin</h3>
 <table border="1" id="t01" style="text-align: center;">

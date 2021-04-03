@@ -78,5 +78,6 @@ if(isset($_GET['nis']) && $_GET['nis']!=''){
 ?>
 
 <p>Pembayaran SPP dilakukan dengan cara mencari tagihan siswa dengan NIS melalui form di atas, kemudian proses pembayaran</p></center>
-
+<br>
+<br>
 <?php include "footer.php" ?>

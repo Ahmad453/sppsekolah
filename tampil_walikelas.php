@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<link rel="stylesheet" type="text/css" href="wali.css">
+<link rel="stylesheet" type="text/css" href="view/wali.css">
 <center>
 <h3>Data Kelas dan Wali Kelas</h3>
 <table border="1" id="t01" style="text-align: center;">

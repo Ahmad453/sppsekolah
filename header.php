@@ -11,13 +11,13 @@ include "koneksi.php";
 <html>
 <head>
 	<title>Aplikasi Pembayaran SPP</title>
-	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="view/header.css">
 </head>
 <body>
  <div class="header">
       <div class="header-list">
         <ul>
-          <li style='list-style-type: none;'>Aplikasi Pembayaran Spp</li>
+          <li class="bayar">Aplikasi Pembayaran Spp</li>
        </ul>
       </div>
     </div>

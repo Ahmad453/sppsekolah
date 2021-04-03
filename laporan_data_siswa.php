@@ -7,26 +7,30 @@ if(isset($_SESSION['login'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cetak Laporan Data Guru</title>
-	<link rel="stylesheet" type="text/css" href="view/laporan_guru.css">
+	<title>Cetak Laporan Data Siswa</title>
+	<link rel="stylesheet" type="text/css" href="view/laporan_siswa.css">
 </head>
 <body>
-	<h3>LAPORAN DATA GURU</h3>
+	<h3>LAPORAN DATA SISWA</h3>
 	<hr/>
 	<table width=100% border="1" cellspacing="0" cellpadding="4" id="t02">
 	<tr>
 		<th>No.</th>
-		<th>ID</th>
-		<th>Nama Guru</th>
+		<th>NIS</th>
+		<th>Nama Siswa</th>
+		<th>Kelas</th>
+		<th>Tahun Ajaran</th>
 	</tr>
 	<?php  
-	$sqlGuru = mysqli_query($konek, "SELECT * FROM guru ORDER BY idguru ASC");
+	$sqlSiswa = mysqli_query($konek, "SELECT * FROM siswa ORDER BY nis ASC");
 	$no=1;
-	while($d=mysqli_fetch_array($sqlGuru)){
+	while($d=mysqli_fetch_array($sqlSiswa)){
 		echo "<tr>
 		<td align='center'>$no</td>
-		<td align='center'>$d[idguru]</td>
-		<td>$d[namaguru]</td>
+		<td align='center'>$d[idsiswa]</td>
+		<td>$d[namasiswa]</td>
+		<td>$d[kelas]</td>
+		<td>$d[tahunajaran]</td>
 		</tr>";
 		$no++;
 	}

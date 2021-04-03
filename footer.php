@@ -1,6 +1,6 @@
-<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" type="text/css" href="view/footer.css">
           <footer>
-          	<p><center>Copyright &copy;, Team Tempur</center></p>
+          	Copyright &copy;, Team Tempur
           </footer>
 </body>
 </html>
