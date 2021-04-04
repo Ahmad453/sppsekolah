@@ -32,14 +32,18 @@ li a:hover {
 .active {
   background-color: #79a57a54;
 }
-.header {
-  text-align: center;
-  background-color: rgb(57, 168, 150);
-}
 .lap {
   background-color:#808080;
   float: left;
   text-align: center;
   width: 100%;
   list-style: none;
+}
+.a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
 }

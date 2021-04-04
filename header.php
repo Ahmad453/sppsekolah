@@ -15,11 +15,8 @@ include "koneksi.php";
 
 </head>
 <body>
-    <div class="header">
-  <div id="example1">
-    <h2>Aplikasi Pembayaran Spp</h2>
-</div>
 <ul>
+<li class="a">Aplikasi Pembayaran Spp</li>
 <li><a class="active" href="index.php">Home</a></li>
 <li><a href="tampil_admin.php">Data Admin</a></li>
 <li><a href="tampil_guru.php">Data Guru</a></li>
@@ -28,4 +25,4 @@ include "koneksi.php";
 <li><a href="transaksi.php">Transaksi</a></li>
 <li><a href="laporan.php">Laporan</a></li>
 <li><a href="logout.php">Logout</a><li>
-</ul></div>
+</ul>

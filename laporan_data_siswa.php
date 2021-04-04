@@ -57,3 +57,4 @@ if(isset($_SESSION['login'])){
 	header ('location:login.php');
  }
  ?>
+ <?php include "footer.php"; ?>
