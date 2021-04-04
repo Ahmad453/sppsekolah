@@ -12,24 +12,17 @@ include "koneksi.php";
 <head>
 	<title>Aplikasi Pembayaran SPP</title>
 	<link rel="stylesheet" type="text/css" href="view/header.css">
+
 </head>
 <body>
- <div class="header">
-      <div class="header-list">
-        <ul>
-          <li class="bayar">Aplikasi Pembayaran Spp</li>
-       </ul>
-      </div>
-    </div>
-    <div class="dropdown">
-  <button class="dropbtn">Pilih Opsi</button>
-  <div class="dropdown-content">
-<a href="tampil_admin.php">Data Admin</a>
-<a href="tampil_guru.php">Data Guru</a>
-<a href="tampil_walikelas.php">Data Wali Kelas</a>
-<a href="tampil_siswa.php">Data Siswa</a>
-<a href="transaksi.php">Transaksi</a>
-<a href="laporan.php">Laporan</a>
-<a href="logout.php">Logout</a>
-</div>
-</div>
+    <img src="image/head.jpg">
+<ul>
+<li><a class="active" href="index.php">Home</a></li>
+<li><a href="tampil_admin.php">Data Admin</a></li>
+<li><a href="tampil_guru.php">Data Guru</a></li>
+<li><a href="tampil_walikelas.php">Data Wali Kelas</a></li>
+<li><a href="tampil_siswa.php">Data Siswa</a></li>
+<li><a href="transaksi.php">Transaksi</a></li>
+<li><a href="laporan.php">Laporan</a></li>
+<li><a href="logout.php">Logout</a><li>
+</ul>

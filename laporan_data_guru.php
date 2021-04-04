@@ -15,7 +15,7 @@ if(isset($_SESSION['login'])){
 	<hr/>
 	<table width=100% border="1" cellspacing="0" cellpadding="4" id="t02">
 	<tr>
-		<th>No.</th>
+		<th style="width: 30px;">No.</th>
 		<th>ID</th>
 		<th>Nama Guru</th>
 	</tr>
