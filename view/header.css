@@ -32,12 +32,12 @@ li a:hover {
 .active {
   background-color: #79a57a54;
 }
-img {
-  width:100px;
-  height: 5px;
+.header {
+  text-align: center;
+  background-color: rgb(57, 168, 150);
 }
 .lap {
-  background-color:skyblue;
+  background-color:#808080;
   float: left;
   text-align: center;
   width: 100%;

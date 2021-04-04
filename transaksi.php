@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<link rel="stylesheet" type="text/css" href="transaksi.css">
 <center>
 <h3>Transaksi Pembayaran SPP</h3>
 <form method="get" action="">
@@ -37,7 +38,7 @@ if(isset($_GET['nis']) && $_GET['nis']!=''){
 	</tr>
 </table>
 <h3>Tagihan SPP Siswa</h3>
-<table border="1">
+<table border="1" id="t03">
 	<tr>
 		<th>No</th>
 		<th>Bulan</th>
@@ -80,4 +81,5 @@ if(isset($_GET['nis']) && $_GET['nis']!=''){
 <p>Pembayaran SPP dilakukan dengan cara mencari tagihan siswa dengan NIS melalui form di atas, kemudian proses pembayaran</p></center>
 <br>
 <br>
+</center>
 <?php include "footer.php" ?>

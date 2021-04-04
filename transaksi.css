@@ -1,0 +1,15 @@
+#t03 {
+    width: 100%;
+    background-color: #f1f1c1;
+    text-align: center;
+  }
+  #t03 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t03 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  #t03 th {
+    color: white;
+    background-color: black;
+  }
