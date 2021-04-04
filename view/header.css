@@ -1,5 +1,7 @@
 body {
   margin: auto;
+  background-color: rgb(49, 45, 45);
+  color: rgb(68, 122, 102);
 }
 
 ul {
@@ -41,7 +43,7 @@ li a:hover {
 }
 .a {
   display: block;
-  color: red;
+  background-color: #288a8d54;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

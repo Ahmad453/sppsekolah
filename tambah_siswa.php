@@ -29,15 +29,15 @@
 		</tr>
 		<tr>
 			<td>Tahun Ajaran</td>
-			<td><input type="text" name="tahunajaran" value="2017/2018" readonly /></td>
+			<td><input type="text" name="tahunajaran" value="2021/2022" readonly /></td>
 		</tr>
 		<tr>
 			<td>Biaya SPP</td>
-			<td><input type="text" name="biaya" value="250000" readonly /></td>
+			<td><input type="number" name="biaya" placeholder="Input Angka" /></td>
 		</tr>
 		<tr>
 			<td>Jatuh Tempo Pertama</td>
-			<td><input type="text" name="jatuhtempo" value="2017-07-10" readonly /></td>
+			<td><input type="date" name="jatuhtempo" value=(Y-m-d) /></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -88,7 +88,7 @@
 				$ds=mysqli_fetch_array(mysqli_query($konek, "SELECT idsiswa FROM siswa ORDER BY idsiswa DESC LIMIT 1"));
 				$idsiswa = $ds['idsiswa'];
 
-				//membuat tagihan (12 bulan dimulai dari Juli 2017 dan menyimpan tagihan di tabel spp
+				//membuat tagihan (12 bulan dimulai dari Juli 2021 dan menyimpan tagihan di tabel spp
 				for($i=0; $i<12; $i++){
 					//membuat tanggal jatuh tempo nya setiap tanggal 10
 					$jatuhtempo = date("Y-m-d", strtotime("+$i month", strtotime($awaltempo)));
