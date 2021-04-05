@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Halaman Login Pembayaran Spp</h1>
+<img src="image/logo.png"  width="150px" height="150px" style="display: block; margin: auto;">
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST'){
 	//variabel untuk menyimpan kiriman dari form

@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  background-color: rgb(49, 45, 45);
   color: rgb(68, 122, 102);
 }
 
@@ -43,7 +42,7 @@ li a:hover {
 }
 .a {
   display: block;
-  background-color: #288a8d54;
+  background-color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

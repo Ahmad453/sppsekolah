@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<link rel="stylesheet" type="text/css" href="transaksi.css">
+<link rel="stylesheet" type="text/css" href="view/transaksi.css">
 <center>
 <h3>Transaksi Pembayaran SPP</h3>
 <form method="get" action="">
@@ -64,7 +64,7 @@ if(isset($_GET['nis']) && $_GET['nis']!=''){
 			<td>$d[ket]</td>
 			<td align='center'>";
 				if($d['nobayar']==''){
-					echo "<a href='proses_transaksi.php?nis=$nis&act=bayar&id=$d[idspp]'>Bayar</a>";
+					echo "<a class='hijau' href='proses_transaksi.php?nis=$nis&act=bayar&id=$d[idspp]'>Bayar</a>";
 				}else{
 					echo "-";
 				}

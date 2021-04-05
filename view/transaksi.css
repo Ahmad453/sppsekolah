@@ -13,3 +13,19 @@
     color: white;
     background-color: black;
   }
+ 
+  .hijau{
+    background-color: grey;
+}
+.hijau:hover{
+color: red;
+}
+.hijau:link{
+color: rgb(0, 247, 255);
+}
+.hijau:active{
+color: green;
+}
+.hijau:visited{
+background: yellow;
+}
